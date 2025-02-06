@@ -58,7 +58,7 @@ function submitQuiz() {
 
   // Send data to Google Apps Script
   fetch(
-    "https://script.google.com/macros/s/AKfycby0SWFv6lmhHJ6VXJE72esZOtCeFyPZRP06nxodWhnUEj7UC-kr2ZO7tiUkHa5SNK0x/exec",
+    "https://script.google.com/macros/s/AKfycbxy4CDDe_ZmUJ1YEw3aK_FDeTuVPhh8m8EQvlYVBeq4-p69LrI6dmWwM99rEmyvh1k/exec",
     {
       method: "POST",
       body: JSON.stringify({ name, examNumber, mfmRegion, phone, score }),
