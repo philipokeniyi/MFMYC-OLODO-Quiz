@@ -1,8 +1,3 @@
-document.querySelectorAll(".numeric-input").forEach((input) => {
-  input.addEventListener("input", function () {
-    this.value = this.value.replace(/\D/g, ""); // Allow only digits
-  });
-});
 
 let timeLeft = 600; // 20 minutes in seconds
 let timerInterval;
