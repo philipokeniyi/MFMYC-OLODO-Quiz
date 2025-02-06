@@ -1,4 +1,4 @@
-let timeLeft = 900; // 20 minutes in seconds
+let timeLeft = 600; // 20 minutes in seconds
 let timerInterval;
 
 function startTimer() {
